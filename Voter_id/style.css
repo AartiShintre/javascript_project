@@ -1,0 +1,87 @@
+body{
+   
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+.voter-id{
+    width: 400px;
+    margin: auto;
+     background: #fff;
+     height: 700px;
+}
+input{
+    width: 90%;
+    padding: 8px;
+    margin: 6px;
+   
+}
+#genrate-voter{
+    padding: 10px;
+    width: 100%;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: large;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+.container{
+      background: linear-gradient(
+        to bottom right,
+        #f4e3c3,
+        #e8d2a8,
+        #cfe9df,
+        #b7e1d4
+    );
+margin: 20px;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid #ccc;
+
+
+}
+.logo{
+    width : 50px;
+   
+    
+}
+.card-body{
+    display: flex;
+    justify-content : flex-end;
+   
+}
+
+
+.card-right{
+   display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardPhoto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.card-title{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+      
+
